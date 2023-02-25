@@ -1,0 +1,1 @@
+.returnArea{width:100%;height:28px;display:flex;flex-direction:row;justify-content:left}.returnBTside{width:26px;background-color:#fff;border-radius:100%}.returnBt{text-align:center;background-color:#fff;width:26px;margin-right:-13px;margin-left:-13px;font-size:14px;display:flex;justify-content:center;align-items:center;z-index:99}.font14{font-size:14px}

@@ -1,0 +1,126 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}
+	    ,{
+            "path" : "pages/Reading/Reading",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                 "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/appointment/appointment",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/questionnaire/questionnaire",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+		    "path" : "pages/person/person",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+            "path" : "pages/person/index/personInformation/personInformation",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/person/index/myLeave/myLeave",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/person/index/appointmentHistory/appointmentHistory",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/person/index/testHistory/testHistory",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],	
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "大学生心理健康自查系统",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+		/* "navigationStyle":"custom"	 */
+	},
+	"tabBar": {
+		"fontSize": "12px",
+		"height": "60px",
+		"color": "#D4E5EF",
+		"selectedColor": "#4994C4",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "心理自测",
+				"iconPath": "./static/home.png",
+				"selectedIconPath": "./static/home_fill.png"
+			},
+			{
+				"pagePath": "pages/Reading/Reading",
+				"text": "心理导读",
+				"iconPath": "./static/article.png",
+				"selectedIconPath": "./static/article_fill.png"
+			},
+			{
+				"pagePath": "pages/appointment/appointment",
+				"text": "留言预约",
+				"iconPath": "./static/leaving.png",
+				"selectedIconPath":"./static/leaving_fill.png"
+			},
+			{
+				"pagePath": "pages/person/person",
+				"text": "个人中心",
+				"iconPath": "./static/person.png",
+				"selectedIconPath":"./static/person_fill.png"
+			}
+		]
+	},
+	"app-plus": {
+		"softinputMode": "adjustResize"
+	}
+}

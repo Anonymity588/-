@@ -1,0 +1,29 @@
+
+.log {
+	/* 最外层 */
+	height: 400rpx;
+	margin: 0 auto;
+	text-align: center;
+	background-size: cover;
+	background-position: center;
+	/* background-image: url("http://139.196.45.104/img/rand/rand5.jpg"); */
+	background-color: #ffffff;
+	display: flex;
+	justify-content: left;
+}
+.head {
+	margin-left: 36px;
+	margin-top: 52px;
+}
+.information {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 16px;
+	margin-top: 52px;
+	height: 63px;
+}
+.font14{
+	font-size: 14px;
+}
+

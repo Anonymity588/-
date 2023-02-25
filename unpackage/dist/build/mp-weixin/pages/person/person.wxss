@@ -1,0 +1,1 @@
+.log{height:400rpx;margin:0 auto;text-align:center;background-size:cover;background-position:50%;background-color:#fff;display:flex;justify-content:left}.head{margin-left:36px;margin-top:52px}.information{display:flex;flex-direction:column;justify-content:center;margin-left:16px;margin-top:52px;height:63px}.font14{font-size:14px}

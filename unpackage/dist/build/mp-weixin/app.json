@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/Reading/Reading",
+    "pages/appointment/appointment",
+    "pages/questionnaire/questionnaire",
+    "pages/person/person",
+    "pages/person/index/personInformation/personInformation",
+    "pages/person/index/myLeave/myLeave",
+    "pages/person/index/appointmentHistory/appointmentHistory",
+    "pages/person/index/testHistory/testHistory"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "大学生心理健康自查系统",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "fontSize": "12px",
+    "height": "60px",
+    "color": "#D4E5EF",
+    "selectedColor": "#4994C4",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "心理自测",
+        "iconPath": "./static/home.png",
+        "selectedIconPath": "./static/home_fill.png"
+      },
+      {
+        "pagePath": "pages/Reading/Reading",
+        "text": "心理导读",
+        "iconPath": "./static/article.png",
+        "selectedIconPath": "./static/article_fill.png"
+      },
+      {
+        "pagePath": "pages/appointment/appointment",
+        "text": "留言预约",
+        "iconPath": "./static/leaving.png",
+        "selectedIconPath": "./static/leaving_fill.png"
+      },
+      {
+        "pagePath": "pages/person/person",
+        "text": "个人中心",
+        "iconPath": "./static/person.png",
+        "selectedIconPath": "./static/person_fill.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

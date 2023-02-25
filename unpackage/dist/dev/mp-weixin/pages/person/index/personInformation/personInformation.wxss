@@ -1,0 +1,43 @@
+
+.returnArea.data-v-bf27eebe {
+	width: 100%;
+	height: 28px;
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+}
+.changeContent.data-v-bf27eebe{
+	/* 弹出层标题 */
+	width: 130px;
+	justify-content: right;
+	display: flex;
+	align-items: center;
+}
+.returnBt.data-v-bf27eebe {
+	text-align: center;
+	background-color: #ffffff;
+	/* border-radius: 8px; */
+	width: 26px;
+	margin-right: -13px;
+	margin-left: -13px;
+	font-size: 14px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 99;
+}
+.returnBTside.data-v-bf27eebe {
+	width: 26px;
+	background-color: #ffffff;
+	border-radius: 100%;
+}
+.font14.data-v-bf27eebe {
+	font-size: 14px;
+}
+.cancle.data-v-bf27eebe {
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: row;
+	vertical-align: middle;
+}
+

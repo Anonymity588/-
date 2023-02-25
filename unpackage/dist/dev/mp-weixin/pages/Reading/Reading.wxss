@@ -1,0 +1,17 @@
+
+.titlearea {
+	width: 100%;
+	font-size: 18px;
+	text-align: center;
+}
+.contrent {
+	font-size: 14px;
+	text-indent: 32px;
+}
+.otherMessage {
+	margin-top: 4px;
+	width: 100%;
+	text-align: right;
+	font-size: 12px;
+}
+

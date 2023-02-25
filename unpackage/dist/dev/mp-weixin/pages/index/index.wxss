@@ -1,0 +1,58 @@
+
+.gonggao{
+	box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.1);
+	height: auto;
+}
+.notice_title {
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+	color: rgb(201, 31, 55);
+	text-overflow: ellipsis;
+	word-wrap: break-word;
+}
+.notice_content {
+	font-size: 14px;
+	text-indent: 32px;
+}
+.notice_time {
+	width: 100%;
+	color: #000000;
+	font-size: 12px;
+	text-align: right;
+}
+.line {
+	display: flex;
+	flex-direction: row;
+	height: 208px;
+	margin: 12px;
+}
+.bankuai {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+	text-align: center;
+	font-size: 24px;
+}
+.son {
+	text-align: center;
+}
+.listtitle{
+	font-size: 16px;
+	text-overflow: ellipsis;
+	word-wrap: break-word;
+}
+.drawerclass{
+	height: 46px;
+	text-overflow: ellipsis;
+	word-wrap: break-word;
+	margin-bottom: 8px;
+	font-size: 16px;
+	box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.1);
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
